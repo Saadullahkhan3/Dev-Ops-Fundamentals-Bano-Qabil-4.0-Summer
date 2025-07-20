@@ -1,0 +1,35 @@
+
+===== LOG FILE ANALYSIS REPORT =====
+File: demo_logs/application.log
+Analyzed on: Sun Jul 20 08:55:05 PKT 2025
+Size: 36K | 34649 bytes
+
+MESSAGE COUNTS:
+ERROR:  messages
+WARNING: 127 messages
+INFO: 153 messages
+
+TOP 5 ERROR MESSAGES:
+    128   Database connection failed
+     52   Invalid authentication token provided (error)
+     52   Failed to write to disk
+     26   User session started (info)
+     26   Uncaught exception
+
+ERROR TIMELINE
+First error: [2025-07-10 02:14:32] Database connection failed: timeout (error)
+Last error: [2025-07-10 11:37:33] User session started (info)
+
+Error frequency by hour:
+02 hour: Frequency -> (24) | Percentage -> 8.45070422535211267600 % errors
+03 hour: Frequency -> (31) | Percentage -> 10.91549295774647887300 % errors
+04 hour: Frequency -> (30) | Percentage -> 10.56338028169014084500 % errors
+05 hour: Frequency -> (31) | Percentage -> 10.91549295774647887300 % errors
+06 hour: Frequency -> (28) | Percentage -> 9.85915492957746478800 % errors
+07 hour: Frequency -> (31) | Percentage -> 10.91549295774647887300 % errors
+08 hour: Frequency -> (30) | Percentage -> 10.56338028169014084500 % errors
+09 hour: Frequency -> (30) | Percentage -> 10.56338028169014084500 % errors
+10 hour: Frequency -> (30) | Percentage -> 10.56338028169014084500 % errors
+11 hour: Frequency -> (19) | Percentage -> 6.69014084507042253500 % errors
+
+Report saved to: analyzed_log/log_analysis_20250720.txt
