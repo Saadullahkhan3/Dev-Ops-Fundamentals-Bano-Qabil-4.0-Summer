@@ -1,9 +1,10 @@
 # Shell Projects
+
 ## Log Analyzer
 Analyzes the given log file and generate a report
 
-Source Code:
-log_analyzer.sh
+*Go to: `Log-Analyzer` directory for futher details.*
 
 
 ## System Health Monitor Dashboard [UnComplete]
+_In process_
