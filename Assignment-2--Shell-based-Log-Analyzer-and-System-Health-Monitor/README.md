@@ -1,6 +1,9 @@
-This is Assignment 2
+# Shell Projects
+## Log Analyzer
+Analyzes the given log file and generate a report
 
-with 2 projects
+Source Code:
+log_analyzer.sh
 
-1 project
-- Log Analyzer
+
+## System Health Monitor Dashboard [UnComplete]

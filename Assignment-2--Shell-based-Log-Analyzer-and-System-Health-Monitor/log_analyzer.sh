@@ -35,10 +35,13 @@
 
 
 
+analyzed_log_folder=analyzed_log
+mkdir -p $analyzed_log_folder
+
 # log_file = $1 # When path given by CLI as arg
 log_file="demo_logs/application.log"
 
-report_file="log_analysis_$(date +%Y%m%d).txt"
+report_file="$analyzed_log_folder/log_analysis_$(date +%Y%m%d).txt"
 
 
 # >> Appened, to the file, at the end of old data
